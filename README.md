@@ -51,6 +51,18 @@ automodeller.plot_variable_test_counts().
 - Returns the average alpha parameter used in the candidate models to help mitigate the issues of multicollinearity.
 - Once you have your final variables and alpha, use tools such as [LinReg](https://linreg.tools), to further explore the relationships
 
+## Detailed Description
+The automodeller method in this code is an experimental approach to model selection and improvement, particularly for marketing mix models. It uses a combination of domain expertise and a language model (GPT) to iteratively improve the model based on various statistical metrics like AIC, R-squared, T-stats, and more.
+
+Here's a high-level explanation of how the automodeller works:
+
+- The method starts by fitting an initial Ridge Regression model using the given dataset, target variable, and the alpha parameter.
+- It calculates various statistical metrics like AIC, R-squared, T-stats, VIF, etc., which are crucial for model evaluation and variable selection.
+- A prompt is constructed using these statistical metrics to ask the language model for advice on improving the model. This prompt includes a detailed summary of the current model, its performance, and its variables. It also asks the language model to consider the practical implications of variable selection and the importance of domain knowledge.
+- The language model (GPT) processes the prompt and responds with suggestions for new variables to consider and, if appropriate, a new alpha parameter for Ridge Regression.
+- The automodeller incorporates the language model's suggestions, updates the variables and alpha parameter, and fits a new Ridge Regression model.
+- This iterative process continues until the model converges to a satisfactory solution based on both statistical and practical considerations, or until the maximum number of iterations is reached.
+- Throughout this process, the automodeller ensures that it does not overfit the model or select variables that do not make sense in the context of a marketing mix model. The goal is to find a model with the best balance of performance (highest R-squared and lowest AIC) and practical relevance, considering the impact of media channels, price, distribution, and other relevant factors.
 
 ## Limitations and Risks
 - As an experimental library, AutoMediaAI may produce unexpected or suboptimal results.
