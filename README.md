@@ -12,32 +12,32 @@ Please note that this library is experimental and may produce unexpected results
 
 ## Usage
 
-**Import the required libraries and dependencies**
+**Import the required libraries and dependencies** :
 Import necessary libraries such as numpy, pandas, sklearn, statsmodels, matplotlib, and openai.
    
-**Load your dataset**
+**Load your dataset** :
 Load your dataset as a pandas DataFrame, and make sure it contains the dependent variable and all potential independent variables.
 
-**Select the initial independent variables**
+**Select the initial independent variables** :
 independent_vars = ['media1', 'media2']
 
-**Set the dependent variable**
+**Set the dependent variable** :
 dependent_var = 'sales'
 
-**Set the initial alpha value for Ridge Regression**
+**Set the initial alpha value for Ridge Regression** :
 initial_alpha = 1.0
 
-**Set the minimum and maximum number of iterations**
+**Set the minimum and maximum number of iterations** :
 min_iterations = 1
 max_iterations = 10
 
-**Create an instance of the AutoModeller class**
+**Create an instance of the AutoModeller class** :
 automodeller = AutoModeller(data, dependent_var, independent_vars, initial_alpha, min_iterations, max_iterations)
 
-**Run the automodeller**
+**Run the automodeller** :
 automodeller.run()
 
-**Plot the variable test counts**
+**Plot the variable test counts** :
 automodeller.plot_variable_test_counts().
 
 
