@@ -73,8 +73,78 @@ Here's a high-level explanation of how the automodeller works:
 - There is a risk of misuse through looping a self-prompt, which may lead to unintended consequences. Users should exercise caution and be aware of the risks involved.
 - The open source software and 1749.io are not responsible for any misuse of the OpenAI API or any consequences resulting from looping a self-prompt.
 
-## Contributing
-AutoMediaAI welcomes contributions from the community. If you would like to contribute, please fork the repository, make your changes, and submit a pull request. For any questions or issues, feel free to open an issue on the repository's issue tracker.
+# Contributing to AutoMediaAI
+
+Thank you for considering contributing to AutoMediaAI! We appreciate your interest in making this library better for everyone. Before you start working on your contribution, please familiarize yourself with the following guidelines and processes.
+
+## Table of Contents
+
+1. [Getting Started](#getting-started)
+2. [Reporting Bugs](#reporting-bugs)
+3. [Feature Requests](#feature-requests)
+4. [Contributing Code](#contributing-code)
+5. [Pull Request Process](#pull-request-process)
+6. [Code Review](#code-review)
+
+
+
+## Getting Started
+
+To start contributing to AutoMediaAI, follow these steps:
+
+1. Fork the repository on GitHub.
+2. Clone your fork to your local machine.
+3. Create a new branch for your changes.
+4. Make your changes and commit them.
+5. Push your changes to your fork.
+6. Create a pull request to the main repository.
+
+## Reporting Bugs
+
+If you encounter a bug or issue with AutoMediaAI, please report it by opening an issue on the repository's issue tracker. Make sure to include the following information in your report:
+
+1. A clear description of the issue.
+2. Steps to reproduce the problem.
+3. The expected and actual results.
+4. Any relevant error messages or logs.
+5. Your system configuration (operating system, Python version, etc.).
+
+## Feature Requests
+
+If you have an idea for a new feature or improvement, please open an issue on the repository's issue tracker. Be sure to include:
+
+1. A clear description of the feature or improvement.
+2. A rationale for why it should be added to AutoMediaAI.
+3. Examples of how the feature would be used.
+
+## Contributing Code
+
+When contributing code, please adhere to the following guidelines:
+
+1. Write clear, concise, and well-structured code.
+2. Add docstrings and comments to your code, explaining its purpose and functionality.
+3. Add tests for your code, ensuring it is reliable and thoroughly tested.
+4. Update any relevant documentation.
+
+## Pull Request Process
+
+1. Ensure your changes are on a separate branch from your fork.
+2. Create a pull request to the main repository, targeting the `develop` branch.
+3. Provide a clear description of the changes in the pull request, including any related issues or feature requests.
+4. Request a review from one or more maintainers.
+5. Address any feedback or requested changes from the review.
+6. Once your pull request has been approved, it will be merged into the `develop` branch.
+
+## Code Review
+
+1. Code reviews are an essential part of the contribution process. They help ensure the quality and maintainability of the codebase.
+2. Be respectful and constructive when providing feedback on a pull request.
+3. Remember that everyone has different levels of experience and knowledge. Be patient and understanding when reviewing or receiving feedback on your contributions.
+4. If you disagree with a reviewer's feedback, discuss it respectfully and try to find a consensus.
+5. Once all feedback has been addressed and the maintainers are satisfied with the changes, the pull request will be merged.
+
+Thank you for your interest in contributing to AutoMediaAI, and we look forward to collaborating with you!
+
 
 ## License
 AutoMediaAI is released under the MIT License.
