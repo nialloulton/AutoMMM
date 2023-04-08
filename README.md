@@ -1,4 +1,4 @@
-# AutoMediaAI: An Open Source Experimental Automodeller for Marketing Mix Models
+# AutoMediaAI: An Open Source Experimental Automodeller for Feature Selection in Marketing Mix Models
 
 ## _by [1749.io](https://1749.io)_
 
