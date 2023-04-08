@@ -43,7 +43,7 @@ automodeller.plot_variable_test_counts().
 
 
 ## Features
-- Automatically selects variables for marketing mix models based on AIC, T-stats, and coefficients.
+- Automated variable selection combining domain expertise and statistical criterea such as AIC, T-stats, and coefficients sign.
 - Assists in handling multicollinearity and model performance improvement.
 - Leverages AI to suggest new variables and Ridge Regression alpha parameter for better model performance.
 - Allows customization of initial variables, initial alpha, and the number of iterations.
