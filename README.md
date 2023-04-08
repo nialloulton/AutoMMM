@@ -47,7 +47,10 @@ automodeller.plot_variable_test_counts().
 - Assists in handling multicollinearity and model performance improvement.
 - Leverages AI to suggest new variables and Ridge Regression alpha parameter for better model performance.
 - Allows customization of initial variables, initial alpha, and the number of iterations.
-- Provides insights into variable usage and test counts.
+- Provides insights into variable usage, where variables used more than average in the candidate models are identified as key variables
+- Returns the average alpha parameter used in the candidate models to help mitigate the issues of multicollinearity.
+- Once you have your final variables and alpha, use tools such as # [LinReg](https://linreg.tools)_, to further explore the relationships
+
 
 ## Limitations and Risks
 - As an experimental library, AutoMediaAI may produce unexpected or suboptimal results.
