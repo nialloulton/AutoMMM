@@ -8,7 +8,7 @@ AutoMediaAI is an experimental open source library designed to automate the proc
 
 Please note that this library is experimental and may produce unexpected results. Users are advised to use this library with caution and always double-check the outcomes to ensure they align with domain expertise and expectations.
 
-**Disclaimer:** AutoMediaAI uses OpenAI's GPT-4 API for assisting with variable selection and model improvement. The open source software and 1749.io are not responsible for any misuse of the OpenAI API or any consequences resulting from looping a self-prompt.
+**Disclaimer:** AutoMediaAI uses OpenAI's GPT-4 API in an iterative loop for assisting with variable selection and model improvement. The open source software and 1749.io are not responsible for any misuse of the OpenAI API or any consequences resulting from looping a self-prompt, including financial expense.
 
 ## Usage
 
