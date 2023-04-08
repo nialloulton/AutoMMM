@@ -14,6 +14,10 @@ Please note that this library is experimental and may produce unexpected results
 
 **Import the required libraries and dependencies** :
 Import necessary libraries such as numpy, pandas, sklearn, statsmodels, matplotlib, and openai.
+
+**Specify your OPENAI Key (Do not publish your presonal Key anywhere)** :
+openai.api_key = "your openai key here"
+
    
 **Load your dataset** :
 Load your dataset as a pandas DataFrame, and make sure it contains the dependent variable and all potential independent variables.
