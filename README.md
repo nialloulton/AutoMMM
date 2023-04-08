@@ -4,7 +4,7 @@ _by [1749.io](https://1749.io)_
 
 ## Overview
 
-AutoMediaAI is an experimental open source library designed to automate the process of building marketing mix models using Ridge Regression and the GPT-4 AI model. By leveraging AI, AutoMediaAI assists in variable selection, multicollinearity management, and model performance improvement. The library is built on top of widely used libraries like NumPy, pandas, and scikit-learn, and aims to streamline the process of creating high-quality marketing mix models.
+AutoMediaAI is an experimental open source library designed to automate the process of building marketing mix models and feature selection methods using Ridge Regression and the GPT-4 AI model. By leveraging AI, AutoMediaAI assists in variable selection, multicollinearity management, and model performance improvement. The library is built on top of widely used libraries like NumPy, pandas, and scikit-learn, and aims to streamline the process of creating high-quality marketing mix models.
 
 Please note that this library is experimental and may produce unexpected results. Users are advised to use this library with caution and always double-check the outcomes to ensure they align with domain expertise and expectations.
 
@@ -12,23 +12,34 @@ Please note that this library is experimental and may produce unexpected results
 
 ## Usage
 
-1. **Import the required libraries and dependencies**
-   Import necessary libraries such as numpy, pandas, sklearn, statsmodels, matplotlib, and openai.
+**Import the required libraries and dependencies**
+Import necessary libraries such as numpy, pandas, sklearn, statsmodels, matplotlib, and openai.
+   
+**Load your dataset**
+Load your dataset as a pandas DataFrame, and make sure it contains the dependent variable and all potential independent variables.
 
-2. **Load your dataset**
-   Load your dataset as a pandas DataFrame, and make sure it contains the dependent variable and all potential independent variables.
+**Select the initial independent variables**
+independent_vars = ['media1', 'media2']
 
-3. **Initialize the AutoModeller class**
-   Create an instance of the AutoModeller class by providing the required arguments, such as data, dependent_var, initial_vars, initial_alpha, min_iterations, and max_iterations.
+**Set the dependent variable**
+dependent_var = 'sales'
 
-4. **Run the AutoModeller**
-   Call the run() method on the instance of the AutoModeller class to start the process of automatic model selection and optimization.
+**Set the initial alpha value for Ridge Regression**
+initial_alpha = 1.0
 
-5. **Interpret the results**
-   After the run() method is completed, you can access the attributes of the AutoModeller instance, such as best_model_stats, best_r_squared, and best_aic to understand the performance of the final model.
+**Set the minimum and maximum number of iterations**
+min_iterations = 1
+max_iterations = 10
 
-6. **Plot the results (optional)**
-   You can call the plot_variable_test_counts() method on the AutoModeller instance to visualize the test counts for each variable.
+**Create an instance of the AutoModeller class**
+automodeller = AutoModeller(data, dependent_var, independent_vars, initial_alpha, min_iterations, max_iterations)
+
+**Run the automodeller**
+automodeller.run()
+
+**Plot the variable test counts**
+automodeller.plot_variable_test_counts().
+
 
 
 ## Features
