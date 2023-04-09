@@ -8,7 +8,15 @@ AutoMediaAI is an experimental open source library designed to automate the proc
 
 Please note that this library is experimental and may produce unexpected results. Users are advised to use this library with caution and always double-check the outcomes to ensure they align with domain expertise and expectations.
 
-**Disclaimer:** AutoMediaAI uses OpenAI's GPT-4 API in an iterative loop for assisting with variable selection and model improvement. The open source software and 1749.io are not responsible for any misuse of the OpenAI API or any consequences resulting from looping a self-prompt, including financial expense.
+**Disclaimer** : AutoMediaAI, a state-of-the-art application leveraging OpenAI's GPT-4 API, is provided "as-is" without any warranties, expressed or implied. By using this software, you agree to assume all risks associated with its use.
+
+The developers, contributors, and 1749.io disclaim any responsibility or liability for losses, damages, or other consequences that may arise due to the use of AutoMediaAI. You, as a user, bear sole responsibility for decisions and actions based on the information provided by this software.
+
+Be aware that using the GPT-4 language model may result in substantial expenses due to token usage. By employing AutoMediaAI, you acknowledge your responsibility for monitoring and managing your own token usage and the associated costs. We strongly recommend regularly reviewing your OpenAI API usage and establishing necessary limits or alerts to prevent unexpected charges.
+
+AutoMediaAI, designed for assisting in model enhancement and variable selection, may generate content or take actions that deviate from best practices or user expectations. It is your responsibility to ensure that any decisions or actions made based on this software's output are appropriate and in line with your requirements or guidelines. The developers and contributors of this project shall not be held responsible for any consequences arising from the use of this software.
+
+By using AutoMediaAI, you agree to indemnify, defend, and hold the developers, contributors, and any affiliated parties harmless from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) resulting from your use of this software or any violation of these terms
 
 ## Usage
 
