@@ -1,22 +1,22 @@
-# AutoMediaAI: An Open Source Experimental Automodeller for Feature Selection in Marketing Mix Models
+# AutoMMMM.ai An Open Source Experimental Automodeller for Feature Selection in Marketing Mix Models
 
 ## _by [1749.io](https://1749.io)_
 
 ## Overview
 
-AutoMediaAI is an experimental open source library designed to automate the process of building base marketing mix models and feature selection methods using Ridge Regression and the GPT-4 AI model. By leveraging AI, AutoMediaAI assists in variable selection, multicollinearity management, and model performance improvement. Using the automodeller can be useful in identifying potential predictors to use in your Marketing-Mix Model. The library is built on top of widely used libraries like NumPy, pandas, and scikit-learn, and aims to streamline the process of creating high-quality marketing mix models.
+AutoMMM.ai is an experimental open source library designed to automate the process of building base marketing mix models and feature selection methods using Ridge Regression and the GPT-4 AI model. By leveraging AI, AutoMMM.ai assists in variable selection, multicollinearity management, and model performance improvement. Using the automodeller can be useful in identifying potential predictors to use in your Marketing-Mix Model. The library is built on top of widely used libraries like NumPy, pandas, and scikit-learn, and aims to streamline the process of creating high-quality marketing mix models.
 
 Please note that this library is experimental and may produce unexpected results. Users are advised to use this library with caution and always double-check the outcomes to ensure they align with domain expertise and expectations.
 
-**Disclaimer** : AutoMediaAI, a state-of-the-art application leveraging OpenAI's GPT-4 API, is provided "as-is" without any warranties, expressed or implied. By using this software, you agree to assume all risks associated with its use.
+**Disclaimer** : AutoMMMM.ai, a state-of-the-art application leveraging OpenAI's GPT-4 API, is provided "as-is" without any warranties, expressed or implied. By using this software, you agree to assume all risks associated with its use.
 
-The developers, contributors, and 1749.io disclaim any responsibility or liability for losses, damages, or other consequences that may arise due to the use of AutoMediaAI. You, as a user, bear sole responsibility for decisions and actions based on the information provided by this software.
+The developers, contributors, and 1749.io disclaim any responsibility or liability for losses, damages, or other consequences that may arise due to the use of AutoMMM.ai. You, as a user, bear sole responsibility for decisions and actions based on the information provided by this software.
 
-Be aware that using the GPT-4 language model may result in substantial expenses due to token usage. By employing AutoMediaAI, you acknowledge your responsibility for monitoring and managing your own token usage and the associated costs. We strongly recommend regularly reviewing your OpenAI API usage and establishing necessary limits or alerts to prevent unexpected charges.
+Be aware that using the GPT-4 language model may result in substantial expenses due to token usage. By employing AutoMMM.ai, you acknowledge your responsibility for monitoring and managing your own token usage and the associated costs. We strongly recommend regularly reviewing your OpenAI API usage and establishing necessary limits or alerts to prevent unexpected charges.
 
-AutoMediaAI, designed for assisting in model enhancement and variable selection, may generate content or take actions that deviate from best practices or user expectations. It is your responsibility to ensure that any decisions or actions made based on this software's output are appropriate and in line with your requirements or guidelines. The developers and contributors of this project shall not be held responsible for any consequences arising from the use of this software.
+AutoMMM.ai, designed for assisting in model enhancement and variable selection, may generate content or take actions that deviate from best practices or user expectations. It is your responsibility to ensure that any decisions or actions made based on this software's output are appropriate and in line with your requirements or guidelines. The developers and contributors of this project shall not be held responsible for any consequences arising from the use of this software.
 
-By using AutoMediaAI, you agree to indemnify, defend, and hold the developers, contributors, and any affiliated parties harmless from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) resulting from your use of this software or any violation of these terms
+By using AutoMMM.ai, you agree to indemnify, defend, and hold the developers, contributors, and any affiliated parties harmless from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) resulting from your use of this software or any violation of these terms
 
 ## Usage
 
@@ -77,13 +77,13 @@ Here's a high-level explanation of how the automodeller works:
 - Throughout this process, the automodeller ensures that it does not overfit the model or select variables that do not make sense in the context of a marketing mix model. The goal is to find a model with the best balance of performance (highest R-squared and lowest AIC) and practical relevance, considering the impact of media channels, price, distribution, and other relevant factors.
 
 ## Limitations and Risks
-- As an experimental library, AutoMediaAI may produce unexpected or suboptimal results.
+- As an experimental library, AutoMMM.ai may produce unexpected or suboptimal results.
 - There is a risk of misuse through looping a self-prompt, which may lead to unintended consequences. Users should exercise caution and be aware of the risks involved.
 - The open source software and 1749.io are not responsible for any misuse of the OpenAI API or any consequences resulting from looping a self-prompt.
 
-# Contributing to AutoMediaAI
+# Contributing to AutoMedia.ai
 
-Thank you for considering contributing to AutoMediaAI! We appreciate your interest in making this library better for everyone. Before you start working on your contribution, please familiarize yourself with the following guidelines and processes.
+Thank you for considering contributing to AutoMMM.ai, We appreciate your interest in making this library better for everyone. Before you start working on your contribution, please familiarize yourself with the following guidelines and processes.
 
 ## Table of Contents
 
@@ -98,7 +98,7 @@ Thank you for considering contributing to AutoMediaAI! We appreciate your intere
 
 ## Getting Started
 
-To start contributing to AutoMediaAI, follow these steps:
+To start contributing to AutoMMM.ai, follow these steps:
 
 1. Fork the repository on GitHub.
 2. Clone your fork to your local machine.
@@ -109,7 +109,7 @@ To start contributing to AutoMediaAI, follow these steps:
 
 ## Reporting Bugs
 
-If you encounter a bug or issue with AutoMediaAI, please report it by opening an issue on the repository's issue tracker. Make sure to include the following information in your report:
+If you encounter a bug or issue with AutoMMM.ai, please report it by opening an issue on the repository's issue tracker. Make sure to include the following information in your report:
 
 1. A clear description of the issue.
 2. Steps to reproduce the problem.
@@ -122,7 +122,7 @@ If you encounter a bug or issue with AutoMediaAI, please report it by opening an
 If you have an idea for a new feature or improvement, please open an issue on the repository's issue tracker. Be sure to include:
 
 1. A clear description of the feature or improvement.
-2. A rationale for why it should be added to AutoMediaAI.
+2. A rationale for why it should be added to AutoMMM.ai.
 3. Examples of how the feature would be used.
 
 ## Contributing Code
@@ -151,9 +151,9 @@ When contributing code, please adhere to the following guidelines:
 4. If you disagree with a reviewer's feedback, discuss it respectfully and try to find a consensus.
 5. Once all feedback has been addressed and the maintainers are satisfied with the changes, the pull request will be merged.
 
-Thank you for your interest in contributing to AutoMediaAI, and we look forward to collaborating with you!
+Thank you for your interest in contributing to AutoMMM.ai, and we look forward to collaborating with you!
 
 
 ## License
-AutoMediaAI is released under the MIT License.
+AutoMMM.ai is released under the MIT License.
 
