@@ -20,7 +20,7 @@ By using AutoMMM, you agree to indemnify, defend, and hold the developers, contr
 
 ## Installation
 
-**pip install autoMMM**
+**pip install autoMMM**: 
 [autoMMM 0.1.2](https://pypi.org/project/autoMMM/0.1.2/)
 
 
