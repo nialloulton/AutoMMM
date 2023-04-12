@@ -8,7 +8,7 @@ AutoMMM.ai is an experimental open source library designed to automate the proce
 
 Please note that this library is experimental and may produce unexpected results. Users are advised to use this library with caution and always double-check the outcomes to ensure they align with domain expertise and expectations.
 
-**Disclaimer** : AutoMMMM.ai, a state-of-the-art application leveraging OpenAI's GPT-4 API, is provided "as-is" without any warranties, expressed or implied. By using this software, you agree to assume all risks associated with its use.
+**Disclaimer** : AutoMMM.ai, a state-of-the-art application leveraging OpenAI's GPT-4 API, is provided "as-is" without any warranties, expressed or implied. By using this software, you agree to assume all risks associated with its use.
 
 The developers, contributors, and 1749.io disclaim any responsibility or liability for losses, damages, or other consequences that may arise due to the use of AutoMMM.ai. You, as a user, bear sole responsibility for decisions and actions based on the information provided by this software.
 
