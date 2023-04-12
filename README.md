@@ -1,4 +1,4 @@
-# AutoMMM.ai An Open Source Experimental Automodeller for Feature Selection in Marketing Mix Models
+# AutoMMM.ai An Experimental Open-source Automodeller for Feature Selection in Marketing Mix Models
 
 ## _by [1749.io](https://1749.io)_
 
