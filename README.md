@@ -161,5 +161,5 @@ Thank you for your interest in contributing to AutoMMM.ai, and we look forward t
 
 
 ## License
-AutoMMM.ai is released under the MIT License.
+AutoMMM is released under the MIT License.
 
