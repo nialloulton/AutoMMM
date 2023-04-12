@@ -83,7 +83,7 @@ Here's a high-level explanation of how the automodeller works:
 
 # Contributing to AutoMedia.ai
 
-Thank you for considering contributing to AutoMMM.ai, We appreciate your interest in making this library better for everyone. Before you start working on your contribution, please familiarize yourself with the following guidelines and processes.
+As an experimental library, contributions and improvements are thoroughly encouraged. We appreciate your interest in making this library better for everyone. Before you start working on your contribution, please familiarize yourself with the following guidelines and processes.
 
 ## Table of Contents
 
