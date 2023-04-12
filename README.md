@@ -87,7 +87,7 @@ Here's a high-level explanation of how the automodeller works:
 - There is a risk of misuse through looping a self-prompt, which may lead to unintended consequences. Users should exercise caution and be aware of the risks involved.
 - The open source software and 1749.io are not responsible for any misuse of the OpenAI API or any consequences resulting from looping a self-prompt.
 
-# Contributing to AutoMedia.ai
+# Contributing to AutoMMM
 
 As an experimental library, contributions and improvements are thoroughly encouraged. We appreciate your interest in making this library better for everyone. Before you start working on your contribution, please familiarize yourself with the following guidelines and processes.
 
