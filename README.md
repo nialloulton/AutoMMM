@@ -18,6 +18,12 @@ AutoMMM.ai, designed for assisting in model enhancement and variable selection, 
 
 By using AutoMMM.ai, you agree to indemnify, defend, and hold the developers, contributors, and any affiliated parties harmless from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) resulting from your use of this software or any violation of these terms
 
+## Installation
+
+**pip install autoMMM**
+[autoMMM 0.1.2](https://pypi.org/project/autoMMM/0.1.2/)
+
+
 ## Usage
 
 **Import the required libraries and dependencies** :
