@@ -25,11 +25,8 @@ By using AutoMMM, you agree to indemnify, defend, and hold the developers, contr
 
 
 ## Usage
-
-For Automodeller see automodeller demo
-For Holidays Extraction and Processing see Autoholidays demo
-
-
+- For Automodeller see automodeller demo
+- For Holidays Extraction and Processing see Autoholidays demo
 
 
 ## Features
