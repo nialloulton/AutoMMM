@@ -26,37 +26,9 @@ By using AutoMMM, you agree to indemnify, defend, and hold the developers, contr
 
 ## Usage
 
-**Import the required libraries and dependencies** :
-Import necessary libraries such as numpy, pandas, sklearn, statsmodels, matplotlib, and openai.
+For Automodeller see automodeller demo
+For Holidays Extraction and Processing see Autoholidays demo
 
-**Specify your OPENAI Key (Do not publish your presonal Key anywhere)** :
-openai.api_key = "your openai key here"
-
-   
-**Load your dataset** :
-Load your dataset as a pandas DataFrame, and make sure it contains the dependent variable and all potential independent variables.
-
-**Select the initial independent variables** :
-independent_vars = ['media1', 'media2']
-
-**Set the dependent variable** :
-dependent_var = 'sales'
-
-**Set the initial alpha value for Ridge Regression** :
-initial_alpha = 1.0
-
-**Set the minimum and maximum number of iterations** :
-min_iterations = 1
-max_iterations = 10
-
-**Create an instance of the AutoModeller class** :
-automodeller = AutoModeller(data, dependent_var, independent_vars, initial_alpha, min_iterations, max_iterations)
-
-**Run the automodeller** :
-automodeller.run()
-
-**Plot the variable test counts** :
-automodeller.plot_variable_test_counts().
 
 
 
