@@ -37,6 +37,8 @@ By using AutoMMM, you agree to indemnify, defend, and hold the developers, contr
 - Provides insights into variable usage, where variables used more than average in the candidate models are identified as key variables
 - Returns the average alpha parameter used in the candidate models to help mitigate the issues of multicollinearity.
 - Once you have your final variables and alpha, use tools such as [LinReg](https://linreg.tools), to further explore the relationships
+- Holidays exctraction and variable creation, processing into any weekly week format
+
 
 ## Detailed Description
 The automodeller method in this code is an experimental approach to model selection and improvement, particularly for marketing mix models. It uses a combination of domain expertise and a language model (GPT) to iteratively improve the model based on various statistical metrics like AIC, R-squared, T-stats, and more.
