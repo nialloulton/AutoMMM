@@ -21,7 +21,7 @@ By using AutoMMM, you agree to indemnify, defend, and hold the developers, contr
 ## Installation
 
 **pip install autoMMM**: 
-[autoMMM 0.1.2](https://pypi.org/project/autoMMM/0.1.2/)
+[autoMMM 0.1.5](https://pypi.org/project/autoMMM/0.1.5/)
 
 
 ## Usage
@@ -38,6 +38,9 @@ By using AutoMMM, you agree to indemnify, defend, and hold the developers, contr
 - Returns the average alpha parameter used in the candidate models to help mitigate the issues of multicollinearity.
 - Once you have your final variables and alpha, use tools such as [LinReg](https://linreg.tools), to further explore the relationships
 - Holidays exctraction and variable creation, processing into any weekly week format
+- Bayesian VAR with exogenous component
+- Impulse Response Function and plotting for Bayesian VAR class
+
 
 
 ## Detailed Description
