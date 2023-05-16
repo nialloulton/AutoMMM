@@ -1,10 +1,28 @@
-# AutoMMM An Experimental Open-source Automodeller for Feature Selection in Marketing Mix Models
+# Experience the Future of Marketing Mix Modeling with AutoMMM
 
 ## _by [1749.io](https://1749.io)_
 
 ## Overview
 
-AutoMMM is an experimental open source project from 1749, designed to automate the process of building base marketing mix models and feature selection methods using Ridge Regression and the GPT-4 AI model. By leveraging domain expertise through AI, AutoMMM assists in variable selection, multicollinearity management, and model performance improvement. Using the automodeller can be useful in identifying potential predictors to use in your Marketing-Mix Model. The library is built on top of widely used libraries like NumPy, pandas, and scikit-learn, and aims to streamline the process of creating high-quality marketing mix models.
+AutoMMM is a groundbreaking tool that revolutionizes the process of building and optimizing Marketing Mix Models. Utilizing advanced Ridge Regression and the GPT-4 AI model, AutoMMM offers a seamless and automated approach to feature selection and model creation.
+
+## Take Control of Your Marketing Efforts
+
+AutoMMM empowers marketers by identifying potential predictors in your Marketing-Mix Model. By leveraging the power of AI and domain expertise, it assists with variable selection, multicollinearity management, and model performance improvement, enabling you to optimize your marketing investments for maximum return.
+
+## Innovative Features for Enhanced Performance
+
+AutoMMM combines domain expertise with statistical criteria like AIC, T-stats, and coefficients sign for an effective automated variable selection process. It uses AI to suggest new variables and Ridge Regression alpha parameter, enhancing your model performance.
+
+## Customize and Understand Your Model
+
+With AutoMMM, you have the flexibility to customize initial variables, initial alpha, and the number of iterations. It provides insights into variable usage, identifying key variables used more than average in the candidate models. Plus, it returns the average alpha parameter used in the models to help manage multicollinearity.
+
+## Explore Further with Holiday Extraction and Bayesian VAR
+
+AutoMMM's robust features include holiday extraction and variable creation, processing into any weekly week format, and Bayesian VAR with an exogenous component. It also provides an Impulse Response Function and plotting for the Bayesian VAR class.
+
+Experience the power of AI in Marketing Mix Modeling with AutoMMM, and harness the power of data to drive your marketing success
 
 Please note that this library is experimental and may produce unexpected results. Users are advised to use this library with caution and always double-check the outcomes to ensure they align with domain expertise and expectations.
 
