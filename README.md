@@ -2,6 +2,24 @@
 
 ## _by [1749.io](https://1749.io)_
 
+---
+
+### 🛠️ **Partner Tools**
+- [PyMC-Marketing Documentation](https://www.pymc-marketing.io/en/stable/)
+- [PyMC-Marketing on GitHub](https://github.com/pymc-labs/pymc-marketing)
+- [Reach Curve](https://www.reachcurve.com)
+- [Perceptual Map](https://www.perceptual-map.com/)
+- [Linear Regression](https://www.linreg.tools/)
+
+---
+
+### 📚 **Marketing Analytics Resources**
+- [Bayesian Marketing Mix Modeling](https://1749.io/resource-center/f/a-comprehensive-guide-to-bayesian-marketing-mix-modeling)
+- [Time-Varying Modeling](https://1749.io/resource-center/f/marketing-mix-modeling-in-a-modern-era-time-varying-parameters)
+- [Long-Term ROAS](https://1749.io/resource-center/f/measuring-marketing-effectiveness-over-the-long-term)
+
+---
+
 ## Overview
 
 AutoMMM is a groundbreaking tool that revolutionizes the process of building and optimizing Marketing Mix Models. Utilizing advanced Ridge Regression and the GPT-4 AI model, AutoMMM offers a seamless and automated approach to feature selection and model creation.
