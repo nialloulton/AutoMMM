@@ -15,9 +15,9 @@
 ---
 
 ### 📚 **Marketing Analytics Resources**
-- [Bayesian Marketing Mix Modeling](https://1749.io/resource-center/f/a-comprehensive-guide-to-bayesian-marketing-mix-modeling)
-- [Time-Varying Modeling](https://1749.io/resource-center/f/marketing-mix-modeling-in-a-modern-era-time-varying-parameters)
-- [Long-Term ROAS](https://1749.io/resource-center/f/measuring-marketing-effectiveness-over-the-long-term)
+- [Bayesian Marketing Mix Modeling](https://1749.io/learn/f/a-comprehensive-guide-to-bayesian-marketing-mix-modeling)
+- [Time-Varying Modeling](https://1749.io/learn/f/marketing-mix-modeling-in-a-modern-era-time-varying-parameters)
+- [Long-Term ROAS](https://1749.io/learn/f/measuring-marketing-effectiveness-over-the-long-term)
 
 ---
 
