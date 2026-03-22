@@ -5,7 +5,7 @@
 ---
 
 ### 🛠️ **Partner Tools**
-- [SIMBA](https://simba.solutions/)
+- [SIMBA](https://getsimba.ai/)
 - [MMM-GPT](https://mmm-gpt.com/)
 - [PyMC-Marketing Documentation](https://www.pymc-marketing.io/en/stable/)
 - [PyMC-Marketing on GitHub](https://github.com/pymc-labs/pymc-marketing)
