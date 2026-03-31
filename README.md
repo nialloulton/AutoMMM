@@ -6,13 +6,9 @@
 
 ### 🛠️ **Partner Tools**
 - [SIMBA](https://getsimba.ai/)
-- [SIMBA Documentaition](https://getsimba.ai/](https://github.com/nialloulton/simba-mmm)   
-- [MMM-GPT](https://mmm-gpt.com/)
+- [SIMBA Docs](https://github.com/nialloulton/simba-mmm)   
 - [PyMC-Marketing Documentation](https://www.pymc-marketing.io/en/stable/)
 - [PyMC-Marketing on GitHub](https://github.com/pymc-labs/pymc-marketing)
-- [Reach Curve](https://www.reachcurve.com)
-- [Perceptual Map](https://www.perceptual-map.com/)
-- [Linear Regression](https://www.linreg.tools/)
 
 ---
 
