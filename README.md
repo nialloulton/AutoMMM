@@ -6,7 +6,7 @@
 
 ### 🛠️ **Partner Tools**
 - [SIMBA](https://getsimba.ai/)
-- [SIMBA Docs](https://github.com/nialloulton/simba-mmm)   
+- [SIMBA Docs](https://github.com/getsimba-ai/simba-mmm)   
 - [PyMC-Marketing Documentation](https://www.pymc-marketing.io/en/stable/)
 - [PyMC-Marketing on GitHub](https://github.com/pymc-labs/pymc-marketing)
 
